@@ -1,0 +1,101 @@
+baseurl = "https://BlueTechMexico.github.io"
+languageCode = "en-us"
+title = "Blue-Tech"
+theme = "hugo-creative-theme"
+publishdir="BlueTechMexico.github.io"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Blue Tech"
+
+		[params.navigation.links]
+			about     = "Producto"
+			services  = "Caracteristicas"
+			portfolio = "portfolio"
+			contact   = "Contactanos"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Transformando tu futuro"
+		subtitle   = "Somos una empresa tecnológica que busca superar los estándares de la competencia,brindando productos que ayuden a la sociedad y al medio ambiente, transmitiendo[el cuidado de la naturaleza](//google.com) a nuestros clientes, otorgando productos de calidad a un costo inferior a la competencia."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Cargador solar portatil"
+		description = "Nuestro producto se basa en el uso de [tecnología limpia](//google.com) la cual resulta amigable para el medio ambiente "
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Características"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Excelente calidad"
+            description = "Fabricado con materiales resistentes,así que descuide, su cargador no se va a romper."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Pequeño & Práctico"
+			description = "Perfecto para llevarlo a todos lados."
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Tecnologia de punta"
+            description = "Nosotros nos actualizamos todos los días para ofrecerle la mejor tecnología."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Hecho con amor"
+            description = "Creemos que todos nuestros clientes son importantes, es por ello que tenemos tanta dedicacion en nuestros productos."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Descarga nuestra aplicación para android"
+
+		[params.aside.button]
+			text = "Descargar ahora"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "¿Dudas o Sugerencias?"
+		description = "La opinion de nuestros clientes es muy importante, por ello si tienes alguna duda,sugerencia o comentario sientete libre de llamarnos o enviarnos un correo electronico, con gusto te atenderemos lo mas pronto posible."
+		phone = "998-315-9342"
+		email = "soportebluetech@hotmail.com"
