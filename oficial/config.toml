@@ -91,7 +91,7 @@ publishdir="BlueTechMexico.github.io"
 
 		[params.aside.button]
 			text = "Descargar ahora"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+			link = "http://www.androidcreator.com/apk/app199190.apk"
 
 	# Contact section
 	[params.contact]
